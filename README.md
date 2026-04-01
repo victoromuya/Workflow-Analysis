@@ -15,8 +15,8 @@ on operational performance.
 ## Overview
 
 Organizations often lose significant productivity due to: - Delays in
-approvals\
-- System inefficiencies\
+approvals
+- System inefficiencies
 - Poor workload distribution
 
 This project analyzes workflow data to: - Measure **time
@@ -28,10 +28,10 @@ impact** - Recommend **automation opportunities**
 
 ## Tech Stack
 
--   Python\
--   Pandas\
--   Matplotlib\
--   Seaborn\
+-   Python
+-   Pandas
+-   Matplotlib
+-   Seaborn
 -   Jupyter Notebook
 -   PowerBI
 
@@ -43,26 +43,26 @@ impact** - Recommend **automation opportunities**
 The dataset contains task-level workflow records with attributes such
 as:
 
--   Workflow_ID\
--   Process_Name\
--   Task_ID\
--   Task_Type\
--   Priority_Level\
--   Department\
--   Assigned_Employee_ID\
--   Task_Start_Time\
--   Task_End_Time\
--   Estimated_Time_Minutes\
--   Actual_Time_Minutes\
--   Delay_Flag\
--   Approval_Level\
--   Employee_Workload\
+-   Workflow_ID
+-   Process_Name
+-   Task_ID
+-   Task_Type
+-   Priority_Level
+-   Department
+-   Assigned_Employee_ID
+-   Task_Start_Time
+-   Task_End_Time
+-   Estimated_Time_Minutes
+-   Actual_Time_Minutes
+-   Delay_Flag
+-   Approval_Level
+-   Employee_Workload
 -   Cost_Per_Task
 
 
 ------------------------------------------------------------------------
 
-## Data Cleaning & Preparation
+## Data Cleaning & Feature Engineering
 
 -   Converted timestamp columns to datetime
 -   Created derived metrics such as: Waiting Tim, Efficiency Ratio, Delay indicators.
@@ -95,8 +95,8 @@ Time Efficiency Metrics
 
 ## Key Insights
 
--   \~30% of total time is lost to delays\
--   Approval levels increase waiting time\
+-   ~30% of total time is lost to delays
+-   Approval levels increase waiting time
 -   Delays increase operational cost
 -   Total Waiting Time is 31.56% of the actual time
 -   Percentage efficiency is at 67%
