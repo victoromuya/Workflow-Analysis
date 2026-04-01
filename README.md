@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 An end-to-end data analysis project focused on **time efficiency** and
 **cost optimization** in workflow operations. This project uncovers
